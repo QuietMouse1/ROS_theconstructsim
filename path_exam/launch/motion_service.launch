@@ -1,0 +1,7 @@
+<launch>
+  <node pkg ="path_exam"                            
+        type="motion_service.py"
+        name="motion_service"      
+        output="screen">             
+  </node>
+</launch>

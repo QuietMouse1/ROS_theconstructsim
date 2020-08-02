@@ -1,0 +1,7 @@
+<launch>
+  <node pkg ="path_exam"                            
+        type="forward_motion.py"
+        name="drone_forward"      
+        output="screen">             
+  </node>
+</launch>
